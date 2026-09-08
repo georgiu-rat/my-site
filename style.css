@@ -103,6 +103,9 @@
         }
 
         .ukrainian {
-            font-size: 17px;
-        }
+            font-size: 17px;}
+        footer {
+    text-align: center;
+}
+
     }
