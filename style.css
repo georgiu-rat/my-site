@@ -39,7 +39,8 @@
     }
 
     .picture {
-        
+        max-width: 100%;
+    height: auto;
         display: block;
         border-radius: 8px;
         margin-bottom: 16px;
