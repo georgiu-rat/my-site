@@ -1,0 +1,107 @@
+﻿    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        padding: 20px 10px 40px;
+        background: #B7DCF9;
+        font-family: Arial, sans-serif;
+        color: #263238;
+    }
+
+    .page {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 32px;
+        margin: 10px 0 25px;
+        color: #243b53;
+    }
+    
+       h2 {
+        text-align: center;
+        font-size: 32px;
+        margin: 10px 0 25px;
+        color: #243b53;
+    }
+
+
+    .block {
+        background: white;
+        border-radius: 12px;
+        padding: 18px;
+        margin-bottom: 18px;
+        box-shadow: 0 2px 7px rgba(0, 0, 0, 0.08);
+    }
+
+    .picture {
+        
+        display: block;
+        border-radius: 8px;
+        margin-bottom: 16px;
+    }
+
+    .english {
+        font-size: 25px;
+        line-height: 1.35;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    .ukrainian {
+        font-size: 19px;
+        line-height: 1.4;
+        color: #555;
+        margin-bottom: 16px;
+    }
+
+    .audio-button {
+        width: 52px;
+        height: 52px;
+        border: none;
+        border-radius: 50%;
+        background: #426b8c;
+        color: white;
+        font-size: 23px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .audio-button:hover {
+        background: #315875;
+    }
+
+    .audio-button:active {
+        transform: scale(0.95);
+    }
+
+    @media (max-width: 600px) {
+
+        body {
+            padding: 10px 6px 30px;
+        }
+
+        h1 {
+            font-size: 25px;
+            margin-bottom: 18px;
+        }
+
+        .block {
+            padding: 12px;
+            margin-bottom: 12px;
+        }
+
+        .english {
+            font-size: 21px;
+        }
+
+        .ukrainian {
+            font-size: 17px;
+        }
+    }
